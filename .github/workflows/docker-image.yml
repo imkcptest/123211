@@ -10,6 +10,6 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           # 下方的name格式为：imkcp/imkcptest
-          name: imkcp/imkcptest
+          name: 74c92bb1-5877-4073-a9fd-42092ccb5544/imkcptest
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
